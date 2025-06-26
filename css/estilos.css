@@ -124,4 +124,11 @@
   transform: translateY(-10px);
 }
 
+header nav {
+  background-color: #ADDCE9;
+}
+header ul li {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
