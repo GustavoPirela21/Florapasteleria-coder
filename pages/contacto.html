@@ -58,19 +58,31 @@
         </nav>
     </header>
     <section class="form-container">
-        <h2>Contactanos</h2>
+        <h2>CONTÁCTANOS</h2>
         <p>Hacé tus consultas o solicitá tu presupuesto acá!</p>
-        <div class="form-inputs">
-            <label for="name">Nombre</label>
-            <input type="text" name="nombre" id="nombre" />
+        <form class="form">
+            <ul>
+                <li>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="escribe tu nombre"/>
+                </li>
+                <li>
             <label for="mail">Correo electronico</label>
-            <input type="email">
-            <label for="phonenumber">Numero de telefono</label>
-            <input type="tel">
-            <label for="msg">Cuentanos sobre tu evento</label>
-            <textarea id="msg"></textarea>
-            <input type="submit" value="Enviar">
-        </div>
+            <input type="email" placeholder="escribe tu email">
+                </li>
+                <li>
+            <label for="phonenumber">Numero de teléfono</label>
+            <input type="tel" placeholder="escribe tu teléfono">
+            </li>
+            <li>
+            <label for="msg">Contanos sobre tu evento</label>
+            <textarea id="msg" placeholder="Dejanos detalles sobre tu evento..."></textarea>
+            </li>
+            <li>
+            <input type="submit" value="Enviar" class="enviar-boton">
+            </li>
+            </ul>
+        </form>
     </section>
 
     <footer class="footer"> <!----footer----->
