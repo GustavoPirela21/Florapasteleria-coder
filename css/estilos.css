@@ -42,23 +42,11 @@
   width: 800px;
 }
 
-.eventos {
+.eventos .eventos-corporativos {
   display: flex;
-  justify-content: space-evenly;
-  background-color: white;
 }
-.eventos div {
-  text-align: center;
-  margin: 20px;
-}
-.eventos div h3 {
-  color: rgb(12, 12, 12);
-  font-size: 28px;
-}
-.eventos div img {
-  height: 500px;
-  width: 500px;
-  border: solid 1px white;
+.eventos .eventos-box {
+  display: flex;
 }
 
 .whatsapp {
