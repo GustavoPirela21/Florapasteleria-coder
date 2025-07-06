@@ -55,20 +55,17 @@
 }
 
 .eventos{
-    .eventos-corporativos{
+    max-width: 1180px;
+    margin: auto;
+    .eventos-tipo{
         display: flex;
-        h3{
-        p{
-        img{
-        }
-        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
-    .eventos-box{
-        display: flex;
-    }
-        }
-    
+}
 
 
 
