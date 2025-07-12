@@ -1,0 +1,26 @@
+/* Sobre Flora */
+
+.sobreflora {
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        img{
+            border-radius: 7%;
+            box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+        }
+
+        p {
+            width: 850px;
+            text-align: center;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: $primary-color;
+        background-color: white;
+        margin: 20px
+    }
+}

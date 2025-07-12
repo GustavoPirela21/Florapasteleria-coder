@@ -1,158 +1,25 @@
-.hero {
-    height: 700px;
-    width: 100%;
-    text-align: center;
-    align-content: center;
-    color: white;
-    background-image: url(../images/hero-image2.jpg);
-    background-size: cover;
-
-    h2 {
-        font-size: 42px;
-        color: white;
-    }
-
-    div {
-        p {
-            margin-bottom: 25px;
-
-        }
-
-        a {
-            text-decoration: none;
-            background-color: black;
-            color: white;
-            padding: 10px;
-
-        }
-    }
-}
-
-.servicios {
-    h2 {
-        background-color: #ADDCE9;
-        text-align: center;
-        height: 40px;
-        color: white;
-        margin: auto;
-
-    }
-
-    div {
-        text-align: center;
-        font-size: 19px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        background-color: white;
-        margin: 30px;
-
-        p {
-            width: 800px;
-        }
-    }
-}
-
-.eventos{
-    max-width: 1180px;
-    margin: auto;
-    .eventos-tipo{
-        display: flex;
-        margin: 40px;
-        img{
-            border-radius: 5%;
-            box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3)
-        }
-        div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: justify;
-            margin: 25px;
-            
-        }
-    }
-}
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'nosotros';
+@import 'corporativos';
+@import 'personales';
+@import 'contactanos';
+@import 'whatsapp';
 
 
 
-.whatsapp {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
 
-.footer{
-    position: relative;
-    width: 100%;
-    background: #ADDCE9;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .menu{
-        display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-}
-        .menu-elem{
-            list-style: none;
-            .menu-icon{
-                color: white;
-    font-size: 20px;
-    display: inline-block;
-    text-decoration: none;
-    margin: 5px 10px;
-    opacity: 0.5;
-    transition: 0.3s;
-    &:hover{
-        opacity: 1;
-    }
 
-            }
-        }
-    }
-    .social-icon{
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: 10px 5px;
-    flex-wrap: wrap;
-        .icon-elem{
-            list-style: none;
-            .icon{
-                color: white;
-    font-size: 32px;
-    display: inline-block;
-    margin: 0 10px;
-    transition: 0.5s;
-    &:hover{
-        transform: translateY(-10px);
-    }
 
-            }
-        }
-    }
-header{
-    nav{
-        background-color: #ADDCE9;
-        margin: auto;
-        div{
-            display: flex;
-        justify-content: center;
-        }
-        }
-    }
-    ul{
-        li{
-            font-size: 20px;
-        }
-    }
+
+
+
+
+
+
+
+
 
 

@@ -1,0 +1,78 @@
+.hero {
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-image: url(../images/hero-image2.jpg);
+    background-size: cover;
+
+    h2 {
+        font-size: 42px;
+        color: white;
+    }
+
+    div {
+        p {
+            margin-bottom: 25px;
+
+        }
+
+        a {
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 10px;
+
+        }
+    }
+}
+
+.servicios {
+    h2 {
+        background-color: #ADDCE9;
+        text-align: center;
+        height: 40px;
+        color: white;
+        margin: auto;
+
+    }
+
+    div {
+        text-align: center;
+        font-size: 19px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin: 30px;
+
+        p {
+            width: 800px;
+        }
+    }
+}
+
+.eventos {
+    max-width: 1180px;
+    margin: auto;
+
+    .eventos-tipo {
+        display: flex;
+        margin: 40px;
+
+        img {
+            border-radius: 5%;
+            box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3)
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            margin: 25px;
+
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/*Personales*/
+.personales{
+
+.hero-personales{
+@extend .hero-corporativos;
+background-image: url(../images/comprar-mesa-dulce-boda-rojo-blanco4.jpg);
+}
+.personales-texto{
+    max-width: 1100px;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+h4{
+    background-color: #ADDCE9;
+    text-align: center;
+    height: 40px;
+    color: white;
+    padding: 4px;
+
+}
+}
