@@ -1,0 +1,88 @@
+@media screen and (max-width: 855px){
+    #coffebreak{
+        display: flex;
+        flex-direction: column;
+        div{
+            text-align: center;
+        }
+    }
+    #desayunosbox{
+        display: flex;
+        flex-direction: column-reverse;
+        div{
+            text-align: center;
+        }
+    }
+    #mesadulce{
+        display: flex;
+        flex-direction: column;
+        div{
+            text-align: center;
+        }
+    }
+    #Foodtruck{
+        display: flex;
+        flex-direction: column-reverse;
+        div{
+            text-align: center;
+        }
+    }
+    .sobreflora{
+        div{
+            img{
+                width: 500px;
+            }
+            p{
+                width: 600px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px){
+    .form-container{
+        .form{
+            width: 550px;
+            ul{
+                li{
+                    input{
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .sobreflora{
+        div{
+            img{
+                width: 300px;
+            }
+            p{
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 553px){
+    .form-container{
+        .form{
+            width: 350px;
+            ul{
+                li{
+                    textarea{
+                        width: 250px;
+                    }
+                    input{
+                        width: 250px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+

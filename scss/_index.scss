@@ -1,0 +1,83 @@
+.carousel{
+    div{ 
+        color: rgb(41, 41, 41);
+        font-size: 90px;
+        div{
+            img{
+                height: 700px;
+            }
+        }   
+    }
+
+}
+.servicio2{
+    color: white;
+}
+
+
+.servicios {
+    h2 {
+        background-color: #ADDCE9;
+        text-align: center;
+        height: 40px;
+        color: white;
+        margin: auto;
+
+    }
+
+    div {
+        text-align: center;
+        font-size: 19px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin: 30px;
+
+        p {
+            width: 800px;
+        }
+    }
+}
+
+.eventos {
+    max-width: 1180px;
+    margin: auto;
+
+    .eventos-tipo {
+        display: flex;
+        margin: 40px;
+
+        img {
+            height: 500px;
+            width: 500px;
+            border-radius: 5%;
+            box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3)
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            margin: 25px;
+
+        }
+    }
+}
+
+        .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        line-height: 60px;
+        text-decoration: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,70 +1,15 @@
-.hero {
-  height: 700px;
-  width: 100%;
-  text-align: center;
-  align-content: center;
-  color: white;
-  background-image: url(../images/hero-image2.jpg);
-  background-size: cover;
-}
-.hero h2 {
-  font-size: 42px;
-  color: white;
-}
-.hero div p {
-  margin-bottom: 25px;
-}
-.hero div a {
-  text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 10px;
-}
-
-.servicios h2 {
+header nav {
   background-color: #ADDCE9;
-  text-align: center;
-  height: 40px;
-  color: white;
   margin: auto;
 }
-.servicios div {
-  text-align: center;
-  font-size: 19px;
-  width: 100%;
-  height: 250px;
+
+header nav div {
   display: flex;
   justify-content: center;
-  padding: 30px 0;
-  background-color: white;
-}
-.servicios div p {
-  width: 800px;
 }
 
-.eventos {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: white;
-}
-.eventos div {
-  text-align: center;
-  margin: 20px;
-}
-.eventos div h3 {
-  color: rgb(12, 12, 12);
-  font-size: 28px;
-}
-.eventos div img {
-  height: 500px;
-  width: 500px;
-  border: solid 1px white;
-}
-
-.whatsapp {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
+ul li {
+  font-size: 20px;
 }
 
 .footer {
@@ -77,6 +22,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.footer .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+.footer .social-icon .icon-elem {
+  list-style: none;
+}
+.footer .social-icon .icon-elem .icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+.footer .social-icon .icon-elem .icon:hover {
+  transform: translateY(-10px);
 }
 .footer .menu {
   display: flex;
@@ -102,33 +68,265 @@
   opacity: 1;
 }
 
-.social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 10px 5px;
-  flex-wrap: wrap;
+.carousel div {
+  color: rgb(41, 41, 41);
+  font-size: 90px;
 }
-.social-icon .icon-elem {
-  list-style: none;
-}
-.social-icon .icon-elem .icon {
-  color: white;
-  font-size: 32px;
-  display: inline-block;
-  margin: 0 10px;
-  transition: 0.5s;
-}
-.social-icon .icon-elem .icon:hover {
-  transform: translateY(-10px);
+.carousel div div img {
+  height: 700px;
 }
 
-header nav {
-  background-color: #ADDCE9;
+.servicio2 {
+  color: white;
 }
-header ul li {
-  font-size: 20px;
+
+.servicios h2 {
+  background-color: #ADDCE9;
+  text-align: center;
+  height: 40px;
+  color: white;
+  margin: auto;
+}
+.servicios div {
+  text-align: center;
+  font-size: 19px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+}
+.servicios div p {
+  width: 800px;
+}
+
+.eventos {
+  max-width: 1180px;
+  margin: auto;
+}
+.eventos .eventos-tipo {
+  display: flex;
+  margin: 40px;
+}
+.eventos .eventos-tipo img {
+  height: 500px;
+  width: 500px;
+  border-radius: 5%;
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+}
+.eventos .eventos-tipo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin: 25px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Sobre Flora */
+.sobreflora div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.sobreflora div img {
+  border-radius: 7%;
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+}
+.sobreflora div p {
+  width: 850px;
+  text-align: center;
+}
+.sobreflora h1 {
+  text-align: center;
+  color: #ADDCE9;
+  background-color: white;
+  margin: 20px;
+}
+
+/* Corporativos */
+.hero-corporativos, .personales .hero-personales {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/eventos_7.jpg);
+  text-align: center;
+  align-content: center;
+  color: #ffffff;
+  background-size: cover;
+}
+
+.corporativos-texto {
+  max-width: 1100px;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+}
+.corporativos-texto h3 {
+  color: #ADDCE9;
+}
+.corporativos-texto ul li {
+  font-size: 16px;
+}
+
+.corporativos-section h4 {
+  background-color: #ADDCE9;
+  text-align: center;
+  height: 40px;
+  color: white;
+  padding: 4px;
+}
+
+/*Personales*/
+.personales .hero-personales {
+  background-image: url(../images/comprar-mesa-dulce-boda-rojo-blanco4.jpg);
+}
+.personales .personales-texto {
+  max-width: 1100px;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+}
+.personales h4 {
+  background-color: #ADDCE9;
+  text-align: center;
+  height: 40px;
+  color: white;
+  padding: 4px;
+}
+
+/*Contactanos*/
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+.form-container .form {
+  width: 600px;
+  border: #ADDCE9 solid 3px;
+  border-radius: 10px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.form-container .form ul {
+  padding-left: 0;
+}
+.form-container .form ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.form-container .form ul li textarea {
+  background-color: #fbfbfb;
+  width: 500px;
+  height: 200px;
+  border: #ADDCE9 solid 2px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+.form-container .form ul li input {
+  height: 50px;
+  width: 500px;
+  margin-top: 6px;
+  border: #ADDCE9 solid 2px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.enviar-boton {
+  background-color: #ADDCE9;
+  color: #ffffff;
+  text-decoration: solid;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 855px) {
+  #coffebreak {
+    display: flex;
+    flex-direction: column;
+  }
+  #coffebreak div {
+    text-align: center;
+  }
+  #desayunosbox {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #desayunosbox div {
+    text-align: center;
+  }
+  #mesadulce {
+    display: flex;
+    flex-direction: column;
+  }
+  #mesadulce div {
+    text-align: center;
+  }
+  #Foodtruck {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #Foodtruck div {
+    text-align: center;
+  }
+  .sobreflora div img {
+    width: 500px;
+  }
+  .sobreflora div p {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .form-container .form {
+    width: 550px;
+  }
+  .form-container .form ul li input {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sobreflora div img {
+    width: 300px;
+  }
+  .sobreflora div p {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 553px) {
+  .form-container .form {
+    width: 350px;
+  }
+  .form-container .form ul li textarea {
+    width: 250px;
+  }
+  .form-container .form ul li input {
+    width: 250px;
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
