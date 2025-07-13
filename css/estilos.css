@@ -72,10 +72,6 @@ ul li {
   color: rgb(41, 41, 41);
   font-size: 90px;
 }
-.carousel div div h2 {
-  position: relative;
-  transform: translateY(-50%);
-}
 .carousel div div img {
   height: 700px;
 }
@@ -113,6 +109,8 @@ ul li {
   margin: 40px;
 }
 .eventos .eventos-tipo img {
+  height: 500px;
+  width: 500px;
   border-radius: 5%;
   box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
@@ -122,6 +120,22 @@ ul li {
   justify-content: center;
   text-align: justify;
   margin: 25px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Sobre Flora */
@@ -248,6 +262,71 @@ ul li {
   position: fixed;
   right: 20px;
   bottom: 20px;
+}
+
+@media screen and (max-width: 855px) {
+  #coffebreak {
+    display: flex;
+    flex-direction: column;
+  }
+  #coffebreak div {
+    text-align: center;
+  }
+  #desayunosbox {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #desayunosbox div {
+    text-align: center;
+  }
+  #mesadulce {
+    display: flex;
+    flex-direction: column;
+  }
+  #mesadulce div {
+    text-align: center;
+  }
+  #Foodtruck {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #Foodtruck div {
+    text-align: center;
+  }
+  .sobreflora div img {
+    width: 500px;
+  }
+  .sobreflora div p {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .form-container .form {
+    width: 550px;
+  }
+  .form-container .form ul li input {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sobreflora div img {
+    width: 300px;
+  }
+  .sobreflora div p {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 553px) {
+  .form-container .form {
+    width: 350px;
+  }
+  .form-container .form ul li textarea {
+    width: 250px;
+  }
+  .form-container .form ul li input {
+    width: 250px;
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
